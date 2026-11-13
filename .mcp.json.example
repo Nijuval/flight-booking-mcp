@@ -1,0 +1,17 @@
+
+{
+  "mcpServers": {
+    "flight-booking": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/server.py"
+      ],
+      "tools": [
+        "search_flights",
+        "book_flight",
+        "get_flight_status"
+      ]
+    }
+  }
+}

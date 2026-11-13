@@ -1,0 +1,26 @@
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+!.env.example
+
+# Local MCP configuration
+.mcp.json
+!.mcp.json.example
